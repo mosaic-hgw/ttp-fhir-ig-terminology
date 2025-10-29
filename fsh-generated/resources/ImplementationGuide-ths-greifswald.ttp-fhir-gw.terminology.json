@@ -1,0 +1,345 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "ths-greifswald.ttp-fhir-gw.terminology",
+  "url": "https://ths-greifswald.de/fhir/terminology/ImplementationGuide/ths-greifswald.ttp-fhir-gw.terminology",
+  "version": "2025.1.0",
+  "name": "IGTTPFHIRGatewayTerminologie",
+  "status": "active",
+  "publisher": "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact": [
+    {
+      "name": "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.ths-greifswald.de/"
+        }
+      ]
+    }
+  ],
+  "packageId": "ths-greifswald.ttp-fhir-gw.terminology",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "ValueSet/BloomfilterTypeVS"
+        },
+        "name": "BloomfilterType",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BloomfilterTypeCS"
+        },
+        "name": "BloomfilterType",
+        "description": "Types of Bloomfilters.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentComponentTypeVS"
+        },
+        "name": "ConsentComponentType",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ConsentComponentTypeCS"
+        },
+        "name": "ConsentComponentType",
+        "description": "Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentPolicyActionVS"
+        },
+        "name": "ConsentPolicyAction",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ConsentPolicyActionCS"
+        },
+        "name": "ConsentPolicyAction",
+        "description": "Extensible description of the permissible (data processing-) action resulting from consented module or policy.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentPolicyActorVS"
+        },
+        "name": "ConsentPolicyActor",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ConsentPolicyActorCS"
+        },
+        "name": "ConsentPolicyActor",
+        "description": "Expandable categorisation of consumer/requestor of a consent enforcement request  related to a specific consent component (e.g. policy or module)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentPolicyClassVS"
+        },
+        "name": "ConsentPolicyClass",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ConsentPolicyClassCS"
+        },
+        "name": "ConsentPolicyClass",
+        "description": "Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentPolicyPurposeVS"
+        },
+        "name": "ConsentPolicyPurpose",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ConsentPolicyPurposeCS"
+        },
+        "name": "ConsentPolicyPurpose",
+        "description": "Expandable specification of the application context and/or scope of a consent policy or module",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusVS"
+        },
+        "name": "ConsentStatus",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ConsentStatusCS"
+        },
+        "name": "ConsentStatus",
+        "description": " consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusConsentFullValuesVS"
+        },
+        "name": "ConsentStatusConsentFullValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusConsentOptOutFullValuesVS"
+        },
+        "name": "ConsentStatusConsentOptOutFullValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusConsentOptOutShortValuesVS"
+        },
+        "name": "ConsentStatusConsentOptOutShortValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusConsentShortValuesVS"
+        },
+        "name": "ConsentStatusConsentShortValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusObjectionFullValuesVS"
+        },
+        "name": "ConsentStatusObjectionFullValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusObjectionShortValuesVS"
+        },
+        "name": "ConsentStatusObjectionShortValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusRefusalFullValuesVS"
+        },
+        "name": "ConsentStatusRefusalFullValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusRefusalShortValuesVS"
+        },
+        "name": "ConsentStatusRefusalShortValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusWithdrawalFullValuesVS"
+        },
+        "name": "ConsentStatusWithdrawalFullValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ConsentStatusWithdrawalShortValuesVS"
+        },
+        "name": "ConsentStatusWithdrawalShortValues",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/DesignationUseCS"
+        },
+        "name": "DesignationUse",
+        "description": "Use codes (contexts) for terminology designations",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/IdatElementsVS"
+        },
+        "name": "IdatElements",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/IdatElementsCS"
+        },
+        "name": "IdatElements",
+        "description": "Element names for use in $requestTasks operation.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/IdMatchingTypeVS"
+        },
+        "name": "IdMatchingType",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/IdMatchingTypeCS"
+        },
+        "name": "IdMatchingType",
+        "description": "ID matching types used in consent management",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/MatchStatusVS"
+        },
+        "name": "MatchStatus",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/MatchStatusCS"
+        },
+        "name": "MatchStatus",
+        "description": "Possible match statuses in the context of adding patient identities.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/PolicyVS"
+        },
+        "name": "Policy",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/PolicyCS"
+        },
+        "name": "Policy",
+        "description": "Policies used in consent management",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/PolicyStatusVS"
+        },
+        "name": "PolicyStatus",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/SaveActionVS"
+        },
+        "name": "SaveAction",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/SaveActionCS"
+        },
+        "name": "SaveAction",
+        "description": "Possible save actions in the context of adding patient identities.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "Beschreibung.html",
+          "title": "Beschreibung",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "Codesysteme.html",
+          "title": "Codesysteme",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "KontextUndKonzept.html",
+          "title": "Kontext und Konzept",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "TechnischeGrundlagen.html",
+          "title": "Technische Grundlagen",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ValueSets.html",
+          "title": "Value Sets",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "Vorgehen.html",
+          "title": "Vorgehen",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
