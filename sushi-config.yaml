@@ -9,7 +9,7 @@ name: IG TTP-FHIR Gateway Terminologie
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: active # draft | active | retired | unknown
-version: 2025.1.0
+version: 2025.2.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2021+
 releaseLabel: ci-build
@@ -37,18 +37,12 @@ dependencies:
 # sub-pages.
 #
 pages:
-  Beschreibung.md:
+  Allgemein.md:
   Codesysteme.md:
   index.md:
     title: Home
-  KontextUndKonzept.md:
-    title: Kontext und Konzept
-  TechnischeGrundlagen.md:
   ValueSets.md:
-  Vorgehen.md:
   ### automatisch generierte Pages müssen hier nicht gelistet werden
-
-
 
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -76,10 +70,7 @@ menu:
   ##### Home ###################################################################
   Home: index.html
   ##### Allgemeines ############################################################
-  Allgemeines:
-    Beschreibung: Beschreibung.html
-    Kontext und Konzept: KontextUndKonzept.html
-    Technische Grundlagen: TechnischeGrundlagen.html
+  Allgemein: Allgemein.html
   ##### Terminologie ###########################################################
   ValueSets: ValueSets.html
   Codesysteme: Codesysteme.html

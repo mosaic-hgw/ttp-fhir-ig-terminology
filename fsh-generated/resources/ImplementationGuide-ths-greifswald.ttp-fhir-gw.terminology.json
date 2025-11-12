@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "ths-greifswald.ttp-fhir-gw.terminology",
   "url": "https://ths-greifswald.de/fhir/terminology/ImplementationGuide/ths-greifswald.ttp-fhir-gw.terminology",
-  "version": "2025.1.0",
+  "version": "2025.2.0",
   "name": "IGTTPFHIRGatewayTerminologie",
   "status": "active",
   "publisher": "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
@@ -295,8 +295,8 @@
       "generation": "html",
       "page": [
         {
-          "nameUrl": "Beschreibung.html",
-          "title": "Beschreibung",
+          "nameUrl": "Allgemein.html",
+          "title": "Allgemein",
           "generation": "markdown"
         },
         {
@@ -310,23 +310,8 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "KontextUndKonzept.html",
-          "title": "Kontext und Konzept",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "TechnischeGrundlagen.html",
-          "title": "Technische Grundlagen",
-          "generation": "markdown"
-        },
-        {
           "nameUrl": "ValueSets.html",
           "title": "Value Sets",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "Vorgehen.html",
-          "title": "Vorgehen",
           "generation": "markdown"
         }
       ]

@@ -1,15 +1,12 @@
-# ths-greifswald.ttp-fhir-gw.terminology#2025.1.0: null
+# ths-greifswald.ttp-fhir-gw.terminology#2025.2.0: null
 
 ## Pages
 
 * [Home](index.md)
-* [Value Sets](ValueSets.md)
-* [Codesysteme](Codesysteme.md)
-* [Beschreibung](Beschreibung.md)
-* [Kontext und Konzept](KontextUndKonzept.md)
+* [Allgemein](Allgemein.md)
 * [Artifacts Summary](artifacts.md)
-* [Vorgehen](Vorgehen.md)
-* [Technische Grundlagen](TechnischeGrundlagen.md)
+* [Codesysteme](Codesysteme.md)
+* [Value Sets](ValueSets.md)
 
 ## Resources
 

@@ -1,6 +1,6 @@
-# IG TTP-FHIR Gateway
+# Unterstützende Terminologien für das TTP-FHIR Gateway
 
-Stand 12.06.2025
+Stand 12.11.2025
 
 ### Implementierung
 

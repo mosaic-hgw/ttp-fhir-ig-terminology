@@ -1,4 +1,4 @@
-# Home - v2025.1.0
+# Home - v2025.2.0
 
 
 
@@ -9,10 +9,10 @@
   "resourceType" : "ImplementationGuide",
   "id" : "ths-greifswald.ttp-fhir-gw.terminology",
   "url" : "https://ths-greifswald.de/fhir/terminology/ImplementationGuide/ths-greifswald.ttp-fhir-gw.terminology",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "IGTTPFHIRGatewayTerminologie",
   "status" : "active",
-  "date" : "2025-10-29T12:30:53+01:00",
+  "date" : "2025-11-12T12:17:24+01:00",
   "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "contact" : [
     {
@@ -1209,11 +1209,11 @@
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "Beschreibung.html"
+              "valueUrl" : "Allgemein.html"
             }
           ],
-          "nameUrl" : "Beschreibung.html",
-          "title" : "Beschreibung",
+          "nameUrl" : "Allgemein.html",
+          "title" : "Allgemein",
           "generation" : "markdown"
         },
         {
@@ -1242,44 +1242,11 @@
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "KontextUndKonzept.html"
-            }
-          ],
-          "nameUrl" : "KontextUndKonzept.html",
-          "title" : "Kontext und Konzept",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "TechnischeGrundlagen.html"
-            }
-          ],
-          "nameUrl" : "TechnischeGrundlagen.html",
-          "title" : "Technische Grundlagen",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
               "valueUrl" : "ValueSets.html"
             }
           ],
           "nameUrl" : "ValueSets.html",
           "title" : "Value Sets",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "Vorgehen.html"
-            }
-          ],
-          "nameUrl" : "Vorgehen.html",
-          "title" : "Vorgehen",
           "generation" : "markdown"
         }
       ]
