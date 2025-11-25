@@ -12,7 +12,7 @@
   "version" : "2025.2.0",
   "name" : "IGTTPFHIRGatewayTerminologie",
   "status" : "active",
-  "date" : "2025-11-25T13:41:17+01:00",
+  "date" : "2025-11-25T14:21:51+01:00",
   "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "contact" : [
     {

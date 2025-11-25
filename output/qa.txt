@@ -3,7 +3,7 @@ IGTTPFHIRGatewayTerminologie : Validation Results
 
 err = 76, warn = 100, info = 69
 IG Publisher Version: 2.0.21 Out of date - current version is 2.0.26
-Generated Tue Nov 25 13:42:08 CET 2025. FHIR version 4.0.1 for ths-greifswald.ttp-fhir-gw.terminology#2025.2.0 (canonical = https://ths-greifswald.de/fhir/terminology)
+Generated Tue Nov 25 14:22:37 CET 2025. FHIR version 4.0.1 for ths-greifswald.ttp-fhir-gw.terminology#2025.2.0 (canonical = https://ths-greifswald.de/fhir/terminology)
  Build Errors : 0 / 27 / 0
  /home/sl/devel/uni-greifswald/ttp-fhir-ig-terminology/fsh-generated/resources/CodeSystem-BloomfilterTypeCS : 2 / 1 / 1
  /home/sl/devel/uni-greifswald/ttp-fhir-ig-terminology/fsh-generated/resources/CodeSystem-ConsentComponentTypeCS : 2 / 1 / 1
