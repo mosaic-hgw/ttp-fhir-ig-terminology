@@ -1,5 +1,6 @@
 ValueSet: ConsentStatusConsentOptOutFullValues
 Id: ConsentStatusConsentOptOutFullValuesVS
+Description: "consent states - subset OPT-OUT-CONSENT documents"
 * insert meta-profile
 * ^status = #active
 * ^url = "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutFullValues"

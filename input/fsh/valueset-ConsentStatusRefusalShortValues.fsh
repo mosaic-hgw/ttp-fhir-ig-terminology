@@ -1,5 +1,6 @@
 ValueSet: ConsentStatusRefusalShortValues
 Id: ConsentStatusRefusalShortValuesVS
+Description: "consent states - minimal subset REFUSAL documents"
 * insert meta-profile
 * ^status = #active
 * ^url = "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusRefusalShortValues"

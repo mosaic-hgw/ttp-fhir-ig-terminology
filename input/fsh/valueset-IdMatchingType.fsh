@@ -1,5 +1,6 @@
 ValueSet: IdMatchingType
 Id: IdMatchingTypeVS
+Description: "ID matching types used in consent management "
 * insert meta-profile
 * ^status = #active
 * ^url = "https://ths-greifswald.de/fhir/ValueSet/gics/IdMatchingType"

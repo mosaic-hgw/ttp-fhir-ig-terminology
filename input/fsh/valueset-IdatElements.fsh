@@ -1,5 +1,6 @@
 ValueSet: IdatElements
 Id: IdatElementsVS
+Description: "Element names for use in $requestTasks operation. "
 * insert meta-profile
 * ^status = #active
 * ^url = "https://ths-greifswald.de/fhir/ValueSet/dispatcher/IdatElements"

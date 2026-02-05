@@ -1,5 +1,6 @@
 ValueSet: PolicyStatus
 Id: PolicyStatusVS
+Description: "set of policy status states used for consent management"
 * insert meta-profile
 * ^status = #active
 * ^url = "https://ths-greifswald.de/fhir/ValueSet/gics/PolicyStatus"

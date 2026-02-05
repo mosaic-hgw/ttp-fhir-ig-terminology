@@ -16,7 +16,7 @@ releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: Unabhängige Treuhandstelle der Universitätsmedizin Greifswald
+  name: Independent Trusted Third Party of the University Medicine Greifswald
   url: https://www.ths-greifswald.de/
   # email: test@example.org
 
@@ -37,10 +37,10 @@ dependencies:
 # sub-pages.
 #
 pages:
+  index.md:
+    title: Implementation Guide Terminology
   Allgemein.md:
   Codesysteme.md:
-  index.md:
-    title: Home
   ValueSets.md:
   ### automatisch generierte Pages müssen hier nicht gelistet werden
 
@@ -72,11 +72,8 @@ menu:
   ##### Allgemeines ############################################################
   Allgemein: Allgemein.html
   ##### Terminologie ###########################################################
-  ValueSets: ValueSets.html
   Codesysteme: Codesysteme.html
-
-
-
+  ValueSets: ValueSets.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

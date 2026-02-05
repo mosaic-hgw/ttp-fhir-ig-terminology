@@ -1,5 +1,6 @@
 ValueSet: ConsentComponentType
 Id: ConsentComponentTypeVS
+Description: "Types of consent components relevant to gICS for differentiation as a search criterion"
 * insert meta-profile
 * ^status = #active
 * ^url = "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentComponentType"

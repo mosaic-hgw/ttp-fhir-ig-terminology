@@ -1,5 +1,6 @@
 ValueSet: MatchStatus
 Id: MatchStatusVS
+Description: "Possible match statuses in the context of adding patient identities. "
 * insert meta-profile
 * ^status = #active
 * ^url = "https://ths-greifswald.de/fhir/ValueSet/epix/MatchStatus"

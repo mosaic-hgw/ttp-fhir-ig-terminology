@@ -1,5 +1,6 @@
 ValueSet: BloomfilterType
 Id: BloomfilterTypeVS
+Description: "Types of Bloomfilters. (DRAFT)"
 * insert meta-profile
 * ^status = #draft
 * ^url = "https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType"
