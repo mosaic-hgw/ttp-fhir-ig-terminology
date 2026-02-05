@@ -6,8 +6,8 @@
   "status" : "active",
   "package-id" : "ths-greifswald.ttp-fhir-gw.terminology",
   "ig-ver" : "2025.2.0",
-  "date" : "Thu, 05 Feb, 2026 13:12:30 +0000",
-  "dateISO8601" : "2026-02-05T13:12:30+00:00",
+  "date" : "Thu, 05 Feb, 2026 13:13:54 +0000",
+  "dateISO8601" : "2026-02-05T13:13:54+00:00",
   "errs" : 76,
   "warnings" : 54,
   "hints" : 69,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 730857472
+  "maxMemory" : 964557984
 }
