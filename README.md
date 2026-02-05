@@ -36,6 +36,3 @@ Hampf C, Bialke M, Hund H, Fegeler C, Lang S, Penndorf P, Wöller N, Moser FM, B
 Bialke M*, Hampf C, Blumentritt A, Moser FM, Lang S, Stehn A Sargsyan E, Hoffmann W, Kraus M **#consented – a semantic consent code to facilitate consistent documentation and implementation of consent in collaborative medical research**. INTERNATIONAL JOURNAL OF MEDICAL INFORMATICS. (open access) 7/2024; 190(105545). https://doi.org/10.1016/j.ijmedinf.2024.105545
 
 Bialke M*, Geidel L, Hampf C, Blumentritt A, Penndorf P, Schuldt R, Moser F, Lang S, Werner P, Stäubert S, Hund H, Albashiti F, Gührer J, Prokosch H, Bahls T, Hoffmann W. **A FHIR® has been lit on gICS® – Facilitating the standardized exchange of informed consents in a large network of university medicine (NUM) in pandemic research**. BMC MEDICAL INFORMATICS AND DECISION MAKING. (open access) 2022. DOI: https://doi.org/10.1186/s12911-022-02081-4
-
-# Implementation Guide
-The rendered IG is available from [GitHub Pages](https://mosaic-hgw.github.io/ttp-fhir-ig-terminology/main/index.html).
