@@ -22,14 +22,15 @@
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2025-06-12"^^xsd:date] ; # 
-  fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:publisher [ fhir:v "Independent Trusted Third Party of the University Medicine Greifswald"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
+     fhir:name [ fhir:v "Independent Trusted Third Party of the University Medicine Greifswald" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
        fhir:value [ fhir:v "https://www.ths-greifswald.de/" ]
      ] )
   ] ) ; # 
+  fhir:description [ fhir:v "consent states - subset WITHDRAWAL documents"] ; # 
   fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:compose [
      fhir:include ( [

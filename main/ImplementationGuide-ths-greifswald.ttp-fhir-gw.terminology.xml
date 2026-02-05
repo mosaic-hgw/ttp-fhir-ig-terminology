@@ -9,10 +9,10 @@
   <version value="2025.2.0"/>
   <name value="IGTTPFHIRGatewayTerminologie"/>
   <status value="active"/>
-  <date value="2026-01-20T10:31:22+00:00"/>
-  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <date value="2026-02-05T13:11:11+00:00"/>
+  <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
   <contact>
-    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.ths-greifswald.de/"/>
@@ -449,6 +449,7 @@
         <reference value="ValueSet/BloomfilterTypeVS"/>
       </reference>
       <name value="BloomfilterType"/>
+      <description value="Types of Bloomfilters. (DRAFT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -470,6 +471,7 @@
         <reference value="ValueSet/ConsentComponentTypeVS"/>
       </reference>
       <name value="ConsentComponentType"/>
+      <description value="Types of consent components relevant to gICS for differentiation as a search criterion"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -491,6 +493,7 @@
         <reference value="ValueSet/ConsentPolicyActionVS"/>
       </reference>
       <name value="ConsentPolicyAction"/>
+      <description value="Extensible description of the permissible (data processing-) action resulting from consented module or policy."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -512,6 +515,7 @@
         <reference value="ValueSet/ConsentPolicyActorVS"/>
       </reference>
       <name value="ConsentPolicyActor"/>
+      <description value="Expandable categorisation of consumer/requestor of a consent enforcement request related to a specific consent component (e.g. policy or module)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -533,6 +537,7 @@
         <reference value="ValueSet/ConsentPolicyClassVS"/>
       </reference>
       <name value="ConsentPolicyClass"/>
+      <description value="Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -554,6 +559,7 @@
         <reference value="ValueSet/ConsentPolicyPurposeVS"/>
       </reference>
       <name value="ConsentPolicyPurpose"/>
+      <description value="Expandable specification of the application context and/or scope of a consent policy or module"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -575,6 +581,7 @@
         <reference value="ValueSet/ConsentStatusVS"/>
       </reference>
       <name value="ConsentStatus"/>
+      <description value="consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -596,6 +603,7 @@
         <reference value="ValueSet/ConsentStatusConsentFullValuesVS"/>
       </reference>
       <name value="ConsentStatusConsentFullValues"/>
+      <description value="consent states - subset CONSENT documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -606,6 +614,7 @@
         <reference value="ValueSet/ConsentStatusConsentOptOutFullValuesVS"/>
       </reference>
       <name value="ConsentStatusConsentOptOutFullValues"/>
+      <description value="consent states - subset OPT-OUT-CONSENT documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -616,6 +625,7 @@
         <reference value="ValueSet/ConsentStatusConsentOptOutShortValuesVS"/>
       </reference>
       <name value="ConsentStatusConsentOptOutShortValues"/>
+      <description value="consent states - minimal subset OPT-OUT-CONSENT documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -626,6 +636,7 @@
         <reference value="ValueSet/ConsentStatusConsentShortValuesVS"/>
       </reference>
       <name value="ConsentStatusConsentShortValues"/>
+      <description value="consent states - minimal subset CONSENT documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -636,6 +647,7 @@
         <reference value="ValueSet/ConsentStatusObjectionFullValuesVS"/>
       </reference>
       <name value="ConsentStatusObjectionFullValues"/>
+      <description value="consent states - subset OBJECTION documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -646,6 +658,7 @@
         <reference value="ValueSet/ConsentStatusObjectionShortValuesVS"/>
       </reference>
       <name value="ConsentStatusObjectionShortValues"/>
+      <description value="consent states - minimal subset OBJECTION documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -656,6 +669,7 @@
         <reference value="ValueSet/ConsentStatusRefusalFullValuesVS"/>
       </reference>
       <name value="ConsentStatusRefusalFullValues"/>
+      <description value="consent states - subset REFUSAL documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -666,6 +680,7 @@
         <reference value="ValueSet/ConsentStatusRefusalShortValuesVS"/>
       </reference>
       <name value="ConsentStatusRefusalShortValues"/>
+      <description value="consent states - minimal subset REFUSAL documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -676,6 +691,7 @@
         <reference value="ValueSet/ConsentStatusWithdrawalFullValuesVS"/>
       </reference>
       <name value="ConsentStatusWithdrawalFullValues"/>
+      <description value="consent states - subset WITHDRAWAL documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -686,6 +702,7 @@
         <reference value="ValueSet/ConsentStatusWithdrawalShortValuesVS"/>
       </reference>
       <name value="ConsentStatusWithdrawalShortValues"/>
+      <description value="consent states - minimal subset WITHDRAWAL documents"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -707,6 +724,7 @@
         <reference value="ValueSet/IdatElementsVS"/>
       </reference>
       <name value="IdatElements"/>
+      <description value="Element names for use in $requestTasks operation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -728,6 +746,7 @@
         <reference value="ValueSet/IdMatchingTypeVS"/>
       </reference>
       <name value="IdMatchingType"/>
+      <description value="ID matching types used in consent management"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -749,6 +768,7 @@
         <reference value="ValueSet/MatchStatusVS"/>
       </reference>
       <name value="MatchStatus"/>
+      <description value="Possible match statuses in the context of adding patient identities."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -770,6 +790,7 @@
         <reference value="ValueSet/PolicyVS"/>
       </reference>
       <name value="Policy"/>
+      <description value="common consent policies used in consent management in medical research"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -791,6 +812,7 @@
         <reference value="ValueSet/PolicyStatusVS"/>
       </reference>
       <name value="PolicyStatus"/>
+      <description value="set of policy status states used for consent management"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -801,6 +823,7 @@
         <reference value="ValueSet/SaveActionVS"/>
       </reference>
       <name value="SaveAction"/>
+      <description value="Possible save actions in the context of adding patient identities."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -823,6 +846,14 @@
       <generation value="html"/>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="index.html"/>
+        </extension>
+        <nameUrl value="index.html"/>
+        <title value="Implementation Guide Terminology"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="Allgemein.html"/>
         </extension>
         <nameUrl value="Allgemein.html"/>
@@ -835,14 +866,6 @@
         </extension>
         <nameUrl value="Codesysteme.html"/>
         <title value="Codesysteme"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="index.html"/>
-        </extension>
-        <nameUrl value="index.html"/>
-        <title value="Home"/>
         <generation value="markdown"/>
       </page>
       <page>

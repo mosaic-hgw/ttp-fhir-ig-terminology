@@ -1,4 +1,4 @@
-# Home - v2025.2.0
+# Implementation Guide Terminology - v2025.2.0
 
 
 
@@ -12,11 +12,11 @@
   "version" : "2025.2.0",
   "name" : "IGTTPFHIRGatewayTerminologie",
   "status" : "active",
-  "date" : "2026-01-20T10:31:22+00:00",
-  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "date" : "2026-02-05T13:11:11+00:00",
+  "publisher" : "Independent Trusted Third Party of the University Medicine Greifswald",
   "contact" : [
     {
-      "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+      "name" : "Independent Trusted Third Party of the University Medicine Greifswald",
       "telecom" : [
         {
           "system" : "url",
@@ -723,6 +723,7 @@
           "reference" : "ValueSet/BloomfilterTypeVS"
         },
         "name" : "BloomfilterType",
+        "description" : "Types of Bloomfilters. (DRAFT)",
         "exampleBoolean" : false
       },
       {
@@ -750,6 +751,7 @@
           "reference" : "ValueSet/ConsentComponentTypeVS"
         },
         "name" : "ConsentComponentType",
+        "description" : "Types of consent components relevant to gICS for differentiation as a search criterion",
         "exampleBoolean" : false
       },
       {
@@ -777,6 +779,7 @@
           "reference" : "ValueSet/ConsentPolicyActionVS"
         },
         "name" : "ConsentPolicyAction",
+        "description" : "Extensible description of the permissible (data processing-) action resulting from consented module or policy.",
         "exampleBoolean" : false
       },
       {
@@ -804,6 +807,7 @@
           "reference" : "ValueSet/ConsentPolicyActorVS"
         },
         "name" : "ConsentPolicyActor",
+        "description" : "Expandable categorisation of consumer/requestor of a consent enforcement request related to a specific consent component (e.g. policy or module)",
         "exampleBoolean" : false
       },
       {
@@ -831,6 +835,7 @@
           "reference" : "ValueSet/ConsentPolicyClassVS"
         },
         "name" : "ConsentPolicyClass",
+        "description" : "Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')",
         "exampleBoolean" : false
       },
       {
@@ -858,6 +863,7 @@
           "reference" : "ValueSet/ConsentPolicyPurposeVS"
         },
         "name" : "ConsentPolicyPurpose",
+        "description" : "Expandable specification of the application context and/or scope of a consent policy or module",
         "exampleBoolean" : false
       },
       {
@@ -885,6 +891,7 @@
           "reference" : "ValueSet/ConsentStatusVS"
         },
         "name" : "ConsentStatus",
+        "description" : "consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y",
         "exampleBoolean" : false
       },
       {
@@ -912,6 +919,7 @@
           "reference" : "ValueSet/ConsentStatusConsentFullValuesVS"
         },
         "name" : "ConsentStatusConsentFullValues",
+        "description" : "consent states - subset CONSENT documents",
         "exampleBoolean" : false
       },
       {
@@ -925,6 +933,7 @@
           "reference" : "ValueSet/ConsentStatusConsentOptOutFullValuesVS"
         },
         "name" : "ConsentStatusConsentOptOutFullValues",
+        "description" : "consent states - subset OPT-OUT-CONSENT documents",
         "exampleBoolean" : false
       },
       {
@@ -938,6 +947,7 @@
           "reference" : "ValueSet/ConsentStatusConsentOptOutShortValuesVS"
         },
         "name" : "ConsentStatusConsentOptOutShortValues",
+        "description" : "consent states - minimal subset OPT-OUT-CONSENT documents",
         "exampleBoolean" : false
       },
       {
@@ -951,6 +961,7 @@
           "reference" : "ValueSet/ConsentStatusConsentShortValuesVS"
         },
         "name" : "ConsentStatusConsentShortValues",
+        "description" : "consent states - minimal subset CONSENT documents",
         "exampleBoolean" : false
       },
       {
@@ -964,6 +975,7 @@
           "reference" : "ValueSet/ConsentStatusObjectionFullValuesVS"
         },
         "name" : "ConsentStatusObjectionFullValues",
+        "description" : "consent states - subset OBJECTION documents",
         "exampleBoolean" : false
       },
       {
@@ -977,6 +989,7 @@
           "reference" : "ValueSet/ConsentStatusObjectionShortValuesVS"
         },
         "name" : "ConsentStatusObjectionShortValues",
+        "description" : "consent states - minimal subset OBJECTION documents",
         "exampleBoolean" : false
       },
       {
@@ -990,6 +1003,7 @@
           "reference" : "ValueSet/ConsentStatusRefusalFullValuesVS"
         },
         "name" : "ConsentStatusRefusalFullValues",
+        "description" : "consent states - subset REFUSAL documents",
         "exampleBoolean" : false
       },
       {
@@ -1003,6 +1017,7 @@
           "reference" : "ValueSet/ConsentStatusRefusalShortValuesVS"
         },
         "name" : "ConsentStatusRefusalShortValues",
+        "description" : "consent states - minimal subset REFUSAL documents",
         "exampleBoolean" : false
       },
       {
@@ -1016,6 +1031,7 @@
           "reference" : "ValueSet/ConsentStatusWithdrawalFullValuesVS"
         },
         "name" : "ConsentStatusWithdrawalFullValues",
+        "description" : "consent states - subset WITHDRAWAL documents",
         "exampleBoolean" : false
       },
       {
@@ -1029,6 +1045,7 @@
           "reference" : "ValueSet/ConsentStatusWithdrawalShortValuesVS"
         },
         "name" : "ConsentStatusWithdrawalShortValues",
+        "description" : "consent states - minimal subset WITHDRAWAL documents",
         "exampleBoolean" : false
       },
       {
@@ -1056,6 +1073,7 @@
           "reference" : "ValueSet/IdatElementsVS"
         },
         "name" : "IdatElements",
+        "description" : "Element names for use in $requestTasks operation.",
         "exampleBoolean" : false
       },
       {
@@ -1083,6 +1101,7 @@
           "reference" : "ValueSet/IdMatchingTypeVS"
         },
         "name" : "IdMatchingType",
+        "description" : "ID matching types used in consent management",
         "exampleBoolean" : false
       },
       {
@@ -1110,6 +1129,7 @@
           "reference" : "ValueSet/MatchStatusVS"
         },
         "name" : "MatchStatus",
+        "description" : "Possible match statuses in the context of adding patient identities.",
         "exampleBoolean" : false
       },
       {
@@ -1137,6 +1157,7 @@
           "reference" : "ValueSet/PolicyVS"
         },
         "name" : "Policy",
+        "description" : "common consent policies used in consent management in medical research",
         "exampleBoolean" : false
       },
       {
@@ -1164,6 +1185,7 @@
           "reference" : "ValueSet/PolicyStatusVS"
         },
         "name" : "PolicyStatus",
+        "description" : "set of policy status states used for consent management",
         "exampleBoolean" : false
       },
       {
@@ -1177,6 +1199,7 @@
           "reference" : "ValueSet/SaveActionVS"
         },
         "name" : "SaveAction",
+        "description" : "Possible save actions in the context of adding patient identities.",
         "exampleBoolean" : false
       },
       {
@@ -1209,6 +1232,17 @@
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "index.html"
+            }
+          ],
+          "nameUrl" : "index.html",
+          "title" : "Implementation Guide Terminology",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
               "valueUrl" : "Allgemein.html"
             }
           ],
@@ -1225,17 +1259,6 @@
           ],
           "nameUrl" : "Codesysteme.html",
           "title" : "Codesysteme",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "index.html"
-            }
-          ],
-          "nameUrl" : "index.html",
-          "title" : "Home",
           "generation" : "markdown"
         },
         {

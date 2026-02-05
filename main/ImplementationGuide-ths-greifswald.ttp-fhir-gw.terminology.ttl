@@ -20,10 +20,10 @@
   fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "IGTTPFHIRGatewayTerminologie"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-01-20T10:31:22+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:date [ fhir:v "2026-02-05T13:11:11+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Independent Trusted Third Party of the University Medicine Greifswald"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
+     fhir:name [ fhir:v "Independent Trusted Third Party of the University Medicine Greifswald" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
        fhir:value [ fhir:v "https://www.ths-greifswald.de/" ]
@@ -1296,6 +1296,7 @@
          fhir:reference [ fhir:v "ValueSet/BloomfilterTypeVS" ]
        ] ;
        fhir:name [ fhir:v "BloomfilterType" ] ;
+       fhir:description [ fhir:v "Types of Bloomfilters. (DRAFT)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1337,6 +1338,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentComponentTypeVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentComponentType" ] ;
+       fhir:description [ fhir:v "Types of consent components relevant to gICS for differentiation as a search criterion" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1378,6 +1380,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentPolicyActionVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentPolicyAction" ] ;
+       fhir:description [ fhir:v "Extensible description of the permissible (data processing-) action resulting from consented module or policy." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1419,6 +1422,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentPolicyActorVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentPolicyActor" ] ;
+       fhir:description [ fhir:v "Expandable categorisation of consumer/requestor of a consent enforcement request related to a specific consent component (e.g. policy or module)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1460,6 +1464,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentPolicyClassVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentPolicyClass" ] ;
+       fhir:description [ fhir:v "Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1501,6 +1506,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentPolicyPurposeVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentPolicyPurpose" ] ;
+       fhir:description [ fhir:v "Expandable specification of the application context and/or scope of a consent policy or module" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1542,6 +1548,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatus" ] ;
+       fhir:description [ fhir:v "consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1583,6 +1590,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusConsentFullValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusConsentFullValues" ] ;
+       fhir:description [ fhir:v "consent states - subset CONSENT documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1603,6 +1611,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusConsentOptOutFullValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusConsentOptOutFullValues" ] ;
+       fhir:description [ fhir:v "consent states - subset OPT-OUT-CONSENT documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1623,6 +1632,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusConsentOptOutShortValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusConsentOptOutShortValues" ] ;
+       fhir:description [ fhir:v "consent states - minimal subset OPT-OUT-CONSENT documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1643,6 +1653,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusConsentShortValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusConsentShortValues" ] ;
+       fhir:description [ fhir:v "consent states - minimal subset CONSENT documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1663,6 +1674,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusObjectionFullValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusObjectionFullValues" ] ;
+       fhir:description [ fhir:v "consent states - subset OBJECTION documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1683,6 +1695,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusObjectionShortValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusObjectionShortValues" ] ;
+       fhir:description [ fhir:v "consent states - minimal subset OBJECTION documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1703,6 +1716,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusRefusalFullValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusRefusalFullValues" ] ;
+       fhir:description [ fhir:v "consent states - subset REFUSAL documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1723,6 +1737,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusRefusalShortValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusRefusalShortValues" ] ;
+       fhir:description [ fhir:v "consent states - minimal subset REFUSAL documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1743,6 +1758,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusWithdrawalFullValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusWithdrawalFullValues" ] ;
+       fhir:description [ fhir:v "consent states - subset WITHDRAWAL documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1763,6 +1779,7 @@
          fhir:reference [ fhir:v "ValueSet/ConsentStatusWithdrawalShortValuesVS" ]
        ] ;
        fhir:name [ fhir:v "ConsentStatusWithdrawalShortValues" ] ;
+       fhir:description [ fhir:v "consent states - minimal subset WITHDRAWAL documents" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1804,6 +1821,7 @@
          fhir:reference [ fhir:v "ValueSet/IdatElementsVS" ]
        ] ;
        fhir:name [ fhir:v "IdatElements" ] ;
+       fhir:description [ fhir:v "Element names for use in $requestTasks operation." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1845,6 +1863,7 @@
          fhir:reference [ fhir:v "ValueSet/IdMatchingTypeVS" ]
        ] ;
        fhir:name [ fhir:v "IdMatchingType" ] ;
+       fhir:description [ fhir:v "ID matching types used in consent management" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1886,6 +1905,7 @@
          fhir:reference [ fhir:v "ValueSet/MatchStatusVS" ]
        ] ;
        fhir:name [ fhir:v "MatchStatus" ] ;
+       fhir:description [ fhir:v "Possible match statuses in the context of adding patient identities." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1927,6 +1947,7 @@
          fhir:reference [ fhir:v "ValueSet/PolicyVS" ]
        ] ;
        fhir:name [ fhir:v "Policy" ] ;
+       fhir:description [ fhir:v "common consent policies used in consent management in medical research" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1968,6 +1989,7 @@
          fhir:reference [ fhir:v "ValueSet/PolicyStatusVS" ]
        ] ;
        fhir:name [ fhir:v "PolicyStatus" ] ;
+       fhir:description [ fhir:v "set of policy status states used for consent management" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1988,6 +2010,7 @@
          fhir:reference [ fhir:v "ValueSet/SaveActionVS" ]
        ] ;
        fhir:name [ fhir:v "SaveAction" ] ;
+       fhir:description [ fhir:v "Possible save actions in the context of adding patient identities." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -2041,6 +2064,25 @@
            ] ;
            fhir:value [
              a fhir:Url ;
+             fhir:v "index.html"^^xsd:anyURI ;
+             fhir:l fhir:index.html
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:Url ;
+           fhir:v "index.html"^^xsd:anyURI ;
+           fhir:l fhir:index.html
+         ] ;
+         fhir:title [ fhir:v "Implementation Guide Terminology" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
+             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
+           ] ;
+           fhir:value [
+             a fhir:Url ;
              fhir:v "Allgemein.html"^^xsd:anyURI ;
              fhir:l fhir:Allgemein.html
            ]
@@ -2070,25 +2112,6 @@
            fhir:l fhir:Codesysteme.html
          ] ;
          fhir:title [ fhir:v "Codesysteme" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [
-             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
-             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
-           ] ;
-           fhir:value [
-             a fhir:Url ;
-             fhir:v "index.html"^^xsd:anyURI ;
-             fhir:l fhir:index.html
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:Url ;
-           fhir:v "index.html"^^xsd:anyURI ;
-           fhir:l fhir:index.html
-         ] ;
-         fhir:title [ fhir:v "Home" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

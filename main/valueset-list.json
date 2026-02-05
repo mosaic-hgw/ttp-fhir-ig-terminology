@@ -6,7 +6,7 @@
       "status" : "active",
       "name" : "IdatElements",
       "title" : null,
-      "description" : "",
+      "description" : "Element names for use in $requestTasks operation.",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"
       ]
@@ -17,7 +17,7 @@
       "status" : "draft",
       "name" : "BloomfilterType",
       "title" : null,
-      "description" : "",
+      "description" : "Types of Bloomfilters. (DRAFT)",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"
       ]
@@ -28,7 +28,7 @@
       "status" : "active",
       "name" : "MatchStatus",
       "title" : null,
-      "description" : "",
+      "description" : "Possible match statuses in the context of adding patient identities.",
       "systems" : ["https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus"]
     },
     {
@@ -37,7 +37,7 @@
       "status" : "active",
       "name" : "SaveAction",
       "title" : null,
-      "description" : "",
+      "description" : "Possible save actions in the context of adding patient identities.",
       "systems" : ["https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction"]
     },
     {
@@ -46,7 +46,7 @@
       "status" : "active",
       "name" : "ConsentComponentType",
       "title" : null,
-      "description" : "",
+      "description" : "Types of consent components relevant to gICS for differentiation as a search criterion",
       "systems" : [
         "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents",
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"
@@ -58,7 +58,7 @@
       "status" : "active",
       "name" : "ConsentPolicyAction",
       "title" : null,
-      "description" : "",
+      "description" : "Extensible description of the permissible (data processing-) action resulting from consented module or policy.",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyAction"
       ]
@@ -69,7 +69,7 @@
       "status" : "active",
       "name" : "ConsentPolicyActor",
       "title" : null,
-      "description" : "",
+      "description" : "Expandable categorisation of consumer/requestor of a consent enforcement request related to a specific consent component (e.g. policy or module)",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyActor"
       ]
@@ -80,7 +80,7 @@
       "status" : "active",
       "name" : "ConsentPolicyClass",
       "title" : null,
-      "description" : "",
+      "description" : "Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyClass"
       ]
@@ -91,7 +91,7 @@
       "status" : "active",
       "name" : "ConsentPolicyPurpose",
       "title" : null,
-      "description" : "",
+      "description" : "Expandable specification of the application context and/or scope of a consent policy or module",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyPurpose"
       ]
@@ -102,7 +102,7 @@
       "status" : "active",
       "name" : "ConsentStatus",
       "title" : null,
-      "description" : "",
+      "description" : "consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -113,7 +113,7 @@
       "status" : "active",
       "name" : "ConsentStatusConsentFullValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - subset CONSENT documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -124,7 +124,7 @@
       "status" : "active",
       "name" : "ConsentStatusConsentOptOutFullValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - subset OPT-OUT-CONSENT documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -135,7 +135,7 @@
       "status" : "active",
       "name" : "ConsentStatusConsentOptOutShortValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - minimal subset OPT-OUT-CONSENT documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -146,7 +146,7 @@
       "status" : "active",
       "name" : "ConsentStatusConsentShortValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - minimal subset CONSENT documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -157,7 +157,7 @@
       "status" : "active",
       "name" : "ConsentStatusObjectionFullValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - subset OBJECTION documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -168,7 +168,7 @@
       "status" : "active",
       "name" : "ConsentStatusObjectionShortValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - minimal subset OBJECTION documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -179,7 +179,7 @@
       "status" : "active",
       "name" : "ConsentStatusRefusalFullValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - subset REFUSAL documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -190,7 +190,7 @@
       "status" : "active",
       "name" : "ConsentStatusRefusalShortValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - minimal subset REFUSAL documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -201,7 +201,7 @@
       "status" : "active",
       "name" : "ConsentStatusWithdrawalFullValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - subset WITHDRAWAL documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -212,7 +212,7 @@
       "status" : "active",
       "name" : "ConsentStatusWithdrawalShortValues",
       "title" : null,
-      "description" : "",
+      "description" : "consent states - minimal subset WITHDRAWAL documents",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
       ]
@@ -223,7 +223,7 @@
       "status" : "active",
       "name" : "IdMatchingType",
       "title" : null,
-      "description" : "",
+      "description" : "ID matching types used in consent management",
       "systems" : [
         "https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType"
       ]
@@ -234,7 +234,7 @@
       "status" : "draft",
       "name" : "Policy",
       "title" : null,
-      "description" : "",
+      "description" : "common consent policies used in consent management in medical research",
       "systems" : ["https://ths-greifswald.de/fhir/CodeSystem/gics/Policy"]
     },
     {
@@ -243,7 +243,7 @@
       "status" : "active",
       "name" : "PolicyStatus",
       "title" : null,
-      "description" : "",
+      "description" : "set of policy status states used for consent management",
       "systems" : [
         "http://hl7.org/fhir/consent-provision-type",
         "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"

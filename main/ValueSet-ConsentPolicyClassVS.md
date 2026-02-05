@@ -14,10 +14,10 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2025-06-12",
-  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "publisher" : "Independent Trusted Third Party of the University Medicine Greifswald",
   "contact" : [
     {
-      "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+      "name" : "Independent Trusted Third Party of the University Medicine Greifswald",
       "telecom" : [
         {
           "system" : "url",
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "description" : "Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT') ",
   "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "compose" : {
     "include" : [

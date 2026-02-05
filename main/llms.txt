@@ -2,7 +2,7 @@
 
 ## Pages
 
-* [Home](index.md)
+* [Implementation Guide Terminology](index.md)
 * [Codesysteme](Codesysteme.md)
 * [Artifacts Summary](artifacts.md)
 * [Value Sets](ValueSets.md)

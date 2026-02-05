@@ -11,9 +11,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2025-06-12"/>
-  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
   <contact>
-    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.ths-greifswald.de/"/>

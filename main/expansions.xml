@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4135288c-5c3f-482f-b1c7-6e10f395b1ca"/>
+  <id value="da309507-da21-48c1-bd27-612fee0f308d"/>
   <meta>
-    <lastUpdated value="2026-01-20T10:31:22.370+00:00"/>
+    <lastUpdated value="2026-02-05T13:11:11.407+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -89,8 +89,8 @@
         <experimental value="false"/>
         <date value="2025-06-12"/>
         <expansion>
-          <identifier value="urn:uuid:f7d439f7-412c-4d8a-ad1f-c26265c56972"/>
-          <timestamp value="2026-01-20T10:32:11+00:00"/>
+          <identifier value="urn:uuid:841cc5f7-2f3c-467d-a39b-eb7dd209b6c2"/>
+          <timestamp value="2026-02-05T13:11:57+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -278,14 +278,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="Types of consent components relevant to gICS for differentiation as a search criterion"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-04-12T12:00:00Z"/>
@@ -441,14 +442,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - subset CONSENT documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-04-12T12:00:00Z"/>
@@ -578,14 +580,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - subset OPT-OUT-CONSENT documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2024-10-04T12:00:00Z"/>
@@ -666,14 +669,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - minimal subset OPT-OUT-CONSENT documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2024-10-04T12:00:00Z"/>
@@ -764,14 +768,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - minimal subset CONSENT documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-04-12T12:00:00Z"/>
@@ -891,14 +896,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - subset OBJECTION documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2024-10-04T12:00:00Z"/>
@@ -979,14 +985,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - minimal subset OBJECTION documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2024-10-04T12:00:00Z"/>
@@ -1117,14 +1124,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - subset REFUSAL documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-04-12T12:00:00Z"/>
@@ -1234,14 +1242,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - minimal subset REFUSAL documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-04-12T12:00:00Z"/>
@@ -1521,14 +1530,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y "/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-04-12T12:00:00Z"/>
@@ -1709,14 +1719,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - subset WITHDRAWAL documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-04-12T12:00:00Z"/>
@@ -1826,14 +1837,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="consent states - minimal subset WITHDRAWAL documents"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-04-12T12:00:00Z"/>
@@ -1953,14 +1965,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="ID matching types used in consent management "/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-05-19T10:23:00+00:00"/>
@@ -2321,14 +2334,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="Element names for use in $requestTasks operation. "/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-05-27T11:00:00+00:00"/>
@@ -2609,14 +2623,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="Possible match statuses in the context of adding patient identities. "/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-10-28T12:00:00.000+02:00"/>
@@ -2785,14 +2800,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="set of policy status states used for consent management"/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-09-05T11:23:00+00:00"/>
@@ -4359,8 +4375,8 @@
         <experimental value="false"/>
         <date value="2025-06-12"/>
         <expansion>
-          <identifier value="urn:uuid:a3eb96fb-acb9-4321-b4af-258f842fe73e"/>
-          <timestamp value="2026-01-20T10:32:16+00:00"/>
+          <identifier value="urn:uuid:a1929d3b-a2de-46ac-a006-1c4662030f1e"/>
+          <timestamp value="2026-02-05T13:12:00+00:00"/>
           <total value="75"/>
           <offset value="0"/>
           <parameter>
@@ -4879,14 +4895,15 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-06-12"/>
-        <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+        <publisher value="Independent Trusted Third Party of the University Medicine Greifswald"/>
         <contact>
-          <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+          <name value="Independent Trusted Third Party of the University Medicine Greifswald"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.ths-greifswald.de/"/>
           </telecom>
         </contact>
+        <description value="Possible save actions in the context of adding patient identities. "/>
         <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
         <expansion>
           <timestamp value="2021-10-28T12:00:00.000+02:00"/>
