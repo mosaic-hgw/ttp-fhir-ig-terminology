@@ -4,9 +4,9 @@
 
 * [Home](index.md)
 * [Allgemein](Allgemein.md)
-* [Artifacts Summary](artifacts.md)
-* [Codesysteme](Codesysteme.md)
 * [Value Sets](ValueSets.md)
+* [Codesysteme](Codesysteme.md)
+* [Artifacts Summary](artifacts.md)
 
 ## Resources
 
