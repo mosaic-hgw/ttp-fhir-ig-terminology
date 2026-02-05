@@ -3,7 +3,7 @@ IGTTPFHIRGatewayTerminologie : Validation Results
 
 err = 76, warn = 54, info = 69
 IG Publisher Version: 2.1.0
-Generated Thu Feb 05 13:12:12 UTC 2026. FHIR version 4.0.1 for ths-greifswald.ttp-fhir-gw.terminology#2025.2.0 (canonical = https://ths-greifswald.de/fhir/terminology)
+Generated Thu Feb 05 13:13:24 UTC 2026. FHIR version 4.0.1 for ths-greifswald.ttp-fhir-gw.terminology#2025.2.0 (canonical = https://ths-greifswald.de/fhir/terminology)
  Build Errors : 0 / 4 / 0
  /workspace/fsh-generated/resources/CodeSystem-BloomfilterTypeCS : 2 / 1 / 1
  /workspace/fsh-generated/resources/CodeSystem-ConsentComponentTypeCS : 2 / 1 / 1
